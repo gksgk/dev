@@ -53,5 +53,8 @@ footer{
 }
 footer h1{
     position: relative;
-    top: 2rem;
+    top: 1.7rem;
+}
+a{
+    text-decoration: none;
 }
