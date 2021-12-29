@@ -7,11 +7,51 @@
     <title>Document</title>
 
     <style>
-        .p1{
-            background-color: tomato;
-            height: 150px;
-            width: 400px;
-        }
+      .p1 {
+        background-color: tomato;
+        height: 150px;
+        width: 400px;
+        border: 5px dashed dodgerblue;
+        /* we prefer to write as above since it is short */
+        /* border-width: 4px;
+            border-style: dashed;
+            border-color: dodgerblue; */
+
+        border-radius: 20px;
+        /* corner ko curvy kar deta hai */
+      }
+
+      .p2 {
+        background-color: aqua;
+        height: 150px;
+        width: 400px;
+        /* we can also set different borders for diffrent sides */
+        border-top: 4px solid red;
+        border-right: 4px dotted palevioletred;
+        border-bottom: 4px dashed pink;
+        border-left: 8px double green;
+        /* similar thing we can do for border radius from diffrent
+           sides t-l t-r b-r b-l*/
+        border-radius: 10px 80px 20px 40px;
+        /* above is same as we prefer above*/
+        /* border-top-left-radius: 10px;
+        border-top-right-radius:80px;
+        border-bottom-right-radius:20px;
+        border-bottom-left-radius:40px; */
+      }
+
+      .p3{
+        /* we can also set image in background */
+        color:paleturquoise;
+        background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+        background-position: center;
+        padding: 100px;
+        height: 100px;
+        width: 400px;
+        border: 2px solid black;
+
+
+      }
     </style>
   </head>
   <body>
